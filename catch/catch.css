@@ -1,0 +1,133 @@
+.box{
+	position:absolute;
+	top:90px;
+	left:350px;
+	height:550px;
+	width:650px;
+	background-color:#CCFFCC;
+	border-radius:10px;
+	
+}
+
+ 
+.lop{
+
+    position:absolute;
+	height:200px;
+	width:200px;
+	top:30%;
+	left:35%;
+	background-color:#3366FF;
+	opacity:0.9;
+	border-radius:1000px;
+	cursor:pointer;
+	color:#3366FF;
+	border:1px  #FFFFFF;
+	display:inline-block;
+	
+	-webkit-transition-duration: 0.9s;
+	
+	transition-duration: 0.9s;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: transform;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+	
+
+}
+
+.lop:hover{
+	background-color:pink;	 
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+	 
+}
+
+h1{
+	position:absolute;
+	top:30%;
+	left:30%;
+	font:30px aria,sans-serif;
+	color:#3366FF;
+}
+
+.ball{
+	position:absolute;
+	top:15px;
+	left:450px;
+	height:100px;
+	width:100px;
+	background-color:pink;
+	display:none;
+	border-radius:100px;
+
+
+}
+
+#time{
+	position:absolute;
+	top:15px;
+	left:15px;
+	color:#3366FF;
+	font:20px aria,sans-serif;
+	height:20px;
+	width:70px;
+	display:none;
+}
+p{
+	position:absolute;
+	top:15px;
+	right:15px;
+	color:#3366FF;
+	font:20px aria,sans-serif;
+	height:20px;
+	width:70px;
+}
+.bilgi{
+	position:absolute;
+	top:150px;
+	left:150px;
+	background-color:#3399FF;
+	height:250px;
+	width:350px;
+	border-radius:10px;
+	display:none;
+	color:#FFFFFF;
+	font:35px aria,sans-serif;	
+	text-align:center;
+	
+	}
+.yes{
+	position:absolute;
+	top:150px;
+	left:80px;
+	height:70px;
+	width:70px;
+	background-color:#74D874;
+	border-radius:20px;
+	display:none;
+}
+
+.nope{
+	position:absolute;
+	background-color:#FF5930;
+	top:150px;
+	right:80px;
+	height:70px;
+	width:70px;	 
+	border-radius:20px;
+	display:none;	
+}
+
+h2{
+	color:#FFFFFF;
+	font:35px aria,sans-serif;	
+	position:absolute;
+	left:80px;
+
+}
+ 
